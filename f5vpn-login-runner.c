@@ -19,7 +19,7 @@ int main(int argc, char **argv)
 	char *args[MAX_ARGS+2];
 	int i;
 	args[0] = PYTHON;
-	args[1] = "/usr/sbin/f5vpn-login.py";
+	args[1] = "/usr/local/sbin/f5vpn-login.py";
 	
 	for(i = 1; i < MAX_ARGS && i < argc; i++)
 	{

@@ -15,7 +15,13 @@ Linux and OSX systems, but porting to any similar OS should be trivial. Porting
 to Windows, on the other hand, is probably not reasonably possible.
 
 To install:
+
+build:
 "make install" as root.
+
+add to path:
+`cat export PATH=$PATH:/usr/local/bin >> .bash_profile` # for bash
+`cat export PATH=$PATH:/usr/local/bin >> .zsh_profile` # for zsh
 
 To run:
 
@@ -29,6 +35,9 @@ James Y Knight, <foom@fuhm.net>
 
 ChangeLog
 ---------
+2018-03-16
+ - Added support for mac os x 10.13 (moved install to `/usr/local/bin`
+
 2012-10-11
  - Added ability to choose the VPN connection when multiple are returned
 
