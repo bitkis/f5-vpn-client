@@ -15,20 +15,16 @@ Linux and OSX systems, but porting to any similar OS should be trivial. Porting
 to Windows, on the other hand, is probably not reasonably possible.
 
 ## Install
-To install:
 
-build:
-"make install" as root.
-
-add to path:
-`cat export PATH=$PATH:/usr/local/bin >> .bash_profile` # for bash
-`cat export PATH=$PATH:/usr/local/bin >> .zsh_profile` # for zsh
-
-As root:
-
+Build:
 ```bash
 make install
 ```
+as root.
+
+Add to path:
+`cat export PATH=$PATH:/usr/local/bin >> .bash_profile` # for bash
+`cat export PATH=$PATH:/usr/local/bin >> .zsh_profile` # for zsh
 
 ## Usage
 
